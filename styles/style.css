@@ -43,8 +43,6 @@ ol {
 
 /* Шаг 1 */
 
-
-
 .content {
   max-width: 1440px;
   width: 100%;
@@ -240,7 +238,7 @@ ol {
   gap: 14px;
 }
 
-.search-form__label-checkbox:hover {
+.search-form__label:hover {
   cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 2px;
