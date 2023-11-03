@@ -164,6 +164,10 @@ ol {
   max-width: 394px;
 }
 
+.content__card-link_current {
+  background: #545050;
+}
+
 .content__card-link:hover {
   text-decoration: underline #FFFFFF;
   text-underline-offset: 1px;
@@ -219,7 +223,7 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   width: fit-content;
-  min-width: 76px;
+  outline: 2px solid #FFFFFF;
 }
 
 .fieldset {
